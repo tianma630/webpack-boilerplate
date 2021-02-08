@@ -1,0 +1,37 @@
+{
+  // "include": [
+  //   "./src",
+  //   "src/__tests__",
+  // ],
+  // "exclude": [
+  //   "./01_basic/01*"
+
+  // ],
+  // "files": [
+
+  // ],
+  "compilerOptions": {
+    "target": "es2015", // 编译为js的es版本
+    "module": "es2015", // 模块化处理
+    // "lib": ["DOM", "ES6"],
+    // "outDir": "./dist", // 输出的目录
+    // // "outFile": "", // 输出合并成一个文件
+    // "allowJs": false, // 是否编译js文件
+    // "checkJs": false, // 检查js文件中的js代码是否符合ts规范
+    // "removeComments": false, // 是否移除注释
+    // "noEmit": false, // 是否生成编译后的文件
+    // "noEmitOnError": true, // 检查出错时不生成编译后的文件
+
+    "declaration": false, // 生成d.ts文件
+    "sourceMap": false,  // 生成sourcemap
+
+    "strict": true, // 严格检查总开关
+    // "alwaysStrict": true, // 编译后的文件是否带严格模式
+    // "noImplicitAny": true, // 不允许隐式的any类型
+    // "noImplicitThis": true, // 不允许不明确类型的this
+    // "strictNullChecks": true, // 空值严格检查，需要校验可能为空的字段
+
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+  }
+}
