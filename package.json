@@ -56,12 +56,12 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint & npm run format",
-      "commit-msg": "./node_modules/validate-commit-msg"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
     }
   }
 }
