@@ -8,5 +8,5 @@
 1. jest
 1. eslint
 1. pretty
-1. commitizen
 1. changelog
+1. standard-version
